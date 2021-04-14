@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://www.spacex.com/static/images/backgrounds-2021/HP_SN11_Vertical_20210311_IMG_01221.webp) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    /* background-color: yellow; */
+    min-width:1000px;
+    height: 10vh;
+    
+}
+
+.inner-container{
+    min-width: 82%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.logo {
+    width:200px;
+    position: relative;
+    left: 40px;
+}
+
+nav {
+    /* background-color: violet; */
+    width: 60%;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 35px;
+    
+}
+
+nav > ul {
+    width: 82%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+li {
+    position: relative;
+    list-style: none;
+
+}
+
+.shop {
+    /* background-color: teal; */
+    display:flex;
+    position: relative;
+    left: 90px;
+    font-size: 13px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}

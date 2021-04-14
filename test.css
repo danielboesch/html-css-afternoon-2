@@ -1,0 +1,38 @@
+.logoShop {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    float: right;
+    height: 100px;
+    width: 75%;
+    background-color: rgb(255, 208, 0);
+}
+
+.logo {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* display: flex;
+    float: left;
+    left: 10%; */
+}
+.links {
+    position: relative;
+    height: 100px;
+    width: 500px;
+    background-color:mediumseagreen;
+    /* display: flex;
+    float: right; */
+}
+.shop {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    /* display: flex;
+    float:right */
+}
