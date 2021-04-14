@@ -1,4 +1,4 @@
-body{
+.page1{
     background-image: url(https://www.spacex.com/static/images/backgrounds-2021/HP_SN11_Vertical_20210311_IMG_01221.webp) ;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ header {
     display: flex;
     /* justify-content: flex-end; */
   /* justify-content: space-between; */
-  align-items: center;
+    align-items: center;
 }
 
 .logo {
@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-    /* background-color: violet; */
+    background-color: violet;
     width: 60%;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
