@@ -1,66 +1,108 @@
-.page1{
+body {
     background-image: url(https://www.spacex.com/static/images/backgrounds-2021/HP_SN11_Vertical_20210311_IMG_01221.webp) ;
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 
-header {
-    /* background-color: yellow; */
-    min-width:1000px;
-    height: 10vh;
+.logoShop {
+    position: relative;
+    display: flex;
+    justify-content:flex-start;
+    
+    
     
 }
 
-.inner-container{
-    min-width: 82%;
-    height: 100%;
-    /* background-color: aqua; */
-    margin: 0 auto;
+.bottom {
+    float: left;
+    height: 100px;
+    width: 76%;
+    /* background-color: rgb(255, 208, 0); */
+    margin-left: 3%;
     display: flex;
-    /* justify-content: flex-end; */
-  /* justify-content: space-between; */
     align-items: center;
 }
 
 .logo {
-    width:200px;
     position: relative;
-    left: 40px;
-}
-
-nav {
-    background-color: violet;
-    width: 60%;
-    color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 13px;
-    position: relative;
-    left: 35px;
-    
-}
-
-nav > ul {
-    width: 82%;
+    height: auto;
+    width: 210px;
+    /* background-color: aqua; */
     display: flex;
-    justify-content: space-around;
-    
+    align-items: center;
+    justify-content: center;
     
 }
-
-li {
+.links {
     position: relative;
-    list-style: none;
-
+    height: 25%;
+    width: 100%;
+    /* background-color:mediumseagreen; */
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    
+    
+    
 }
-
 .shop {
-    /* background-color: teal; */
-    display:flex;
     position: relative;
-    left: 90px;
-    font-size: 13px;
-    color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100px;
+    width: 100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    float: right;
+    left: -30px;
     
 
+}
+
+ .mainLinks > ul {
+     width: 126%;
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13.6px;
+     
+    }
+    
+
+
+ .shop > ul {
+     width: 120%;
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13.6px;
+
+    margin-left: -60%;
+        
+ }
+
+ 
+#burger {
+    font-size: 20px;
+}
+
+.flightTest {
+    display: flex;
+}
+
+.replayBtn {
+    height: 200%;
+    width: 120px;
+    border: white 2px solid;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    
+}
+header{
+    height: 100%;
 }
