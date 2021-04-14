@@ -38,7 +38,7 @@ body {
     height: 25%;
     width: 100%;
     /* background-color:mediumseagreen; */
-    margin-left: 0px;
+    margin-left: -10px;
     display: flex;
     align-items: center;
     font-size: 10px;
@@ -60,7 +60,7 @@ body {
 }
 
  .mainLinks > ul {
-     width: 120%;
+     width: 126%;
      display: flex;
      justify-content: space-around;
      list-style: none;
@@ -81,7 +81,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13.6px;
 
-    margin-left: -20px;
+    margin-left: -60%;
         
  }
 
