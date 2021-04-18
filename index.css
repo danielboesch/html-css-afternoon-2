@@ -1,26 +1,79 @@
+
+
 body {
-    background-image: url(https://www.spacex.com/static/images/backgrounds-2021/HP_SN11_Vertical_20210311_IMG_01221.webp) ;
     background-size: 100%;
     background-repeat:no-repeat;
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px ;
 }
 
-.logoShop {
+
+
+.page{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.page1 {
+   /* display: inline-block; */
+   background: url(https://www.spacex.com/static/images/backgrounds-2021/Crew2_twilightApr16_DSC_4504.webp) ;
+   background-size: cover; 
+   background-position-y: center;
+}
+
+.page2 {
+   /* display: inline-block; */
+   background: url(https://www.spacex.com/static/images/backgrounds-2021/hls-resized-2.webp) ;
+   background-size: cover;
+   background-position-y: center;
+   background-position-x: center;
+}
+.page3 {
+   /* display: inline-block; */
+   background: url(https://www.spacex.com/static/images/backgrounds-2021/HP_Star23_DSC_4468.webp) ;
+   background-size: cover;
+   background-position-y: center;
+}
+.page4 {
+   /* display: inline-block; */
+   background: url(https://www.spacex.com/static/images/backgrounds/iss_game.webp) ;
+   background-size: cover;
+   background-position-y: center;
+   background-position-x: center ;
+   margin-bottom: -20px;
+}
+
+
+.head {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(255, 208, 0); */
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    position: fixed;
+  }
+
+.logoLinks {
     position: relative;
     display: flex;
     justify-content:flex-start;
-    
-    
-    
+    /* background-color: salmon; */
+    width: 900px;
+    left: 4%;
 }
 
-.bottom {
-    float: left;
-    height: 100px;
-    width: 76%;
-    /* background-color: rgb(255, 208, 0); */
-    margin-left: 3%;
+.shop {
+    position: relative;
+    width: 100px;
+    /* background-color: blueviolet; */
     display: flex;
     align-items: center;
+    right: 9px;
 }
 
 .logo {
@@ -28,10 +81,11 @@ body {
     height: auto;
     width: 210px;
     /* background-color: aqua; */
+    bottom: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .links {
     position: relative;
@@ -42,67 +96,215 @@ body {
     display: flex;
     align-items: center;
     font-size: 10px;
-    
-    
-    
+
+
+
 }
-.shop {
-    position: relative;
-    height: 100px;
-    width: 100px;
-    /* background-color: blueviolet; */
+.mainLinks > ul {
+    width: 126%;
     display: flex;
-    align-items: center;
-    float: right;
-    left: -30px;
-    
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13.6px;
 
 }
 
- .mainLinks > ul {
-     width: 126%;
-     display: flex;
-     justify-content: space-around;
-     list-style: none;
-     color: white;
+
+
+.shop > ul {
+    width: 120%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13.6px;
-     
-    }
-    
-
-
- .shop > ul {
-     width: 120%;
-     display: flex;
-     justify-content: space-around;
-     list-style: none;
-     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 13.6px;
-
     margin-left: -60%;
-        
- }
 
- 
+}
+
+
 #burger {
     font-size: 20px;
 }
 
-.flightTest {
+.bottomBox {
+    width: 500px;
+    height: 190px;
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    flex-direction: column;
     display: flex;
+    justify-content: space-between;
+    bottom: 15%;
+    left: 3.5%;
+}
+
+.flightTestAndStarship {
+    /* background-color: seagreen; */
+    height: 110px;
+}
+
+.flightTest {
+    height: 30px;
+    width: 200px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.starship {
+    height: 60px;
+    width: 420px;
+    /* background-color: rgb(220, 190, 20); */
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+
 }
 
 .replayBtn {
-    height: 200%;
-    width: 120px;
+    height: 50px;
+    width: 160px;
     border: white 2px solid;
     display: flex;
+    align-items: center;
     justify-content: center;
-    bottom: 0px;
-    
+    font-size: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-header{
+
+.replayBtn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+ header{
     height: 100%;
+}
+
+
+h3, h1 {
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+/*-----------------------PAGE 2------------------------------------------*/
+
+.page2Info {
+    width: 500px;
+    height: 220px; 
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 500px; 
+    /* bottom: 0; */
+    left: 3%; 
+}
+
+
+
+.starshipToLand {
+    height: 150px;
+    width: 500px;
+    /* background-color: rgb(220, 190, 20); */
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* margin-top: 500px; */
+    left: 5%;
+
+}
+
+.page2Btn {
+    height: 50px;
+    width: 160px;
+    border: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.page2Btn a {
+    color: white;
+    text-decoration: none;
+}
+
+/*-----------------------PAGE 3------------------------------------------*/
+
+.page3Info {
+    width: 500px;
+    height: 150px; 
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 580px; 
+    /* bottom: 0; */
+    left: 3%; 
+}
+
+.recentLaunchAndStarlink {
+    /* background-color: seagreen; */
+    height: 110px;
+}
+
+
+.recentLaunch {
+    height: 30px;
+    width: 200px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.starlinkMission {
+    height: 50px;
+    width: 500px;
+    /* background-color: rgb(220, 190, 20); */
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* margin-top: 500px; */
+    left: 5%;
+}
+
+
+.page3Btn {
+    height: 50px;
+    width: 160px;
+    border: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.page3Btn a {
+    color: white;
+    text-decoration: none;
 }
