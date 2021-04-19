@@ -7,7 +7,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    padding-bottom: 20px ;
+    /* padding-bottom: 20px ; */
 }
 
 
@@ -20,9 +20,11 @@ body {
 
 .page1 {
    /* display: inline-block; */
-   background: url(https://www.spacex.com/static/images/backgrounds-2021/Crew2_twilightApr16_DSC_4504.webp) ;
+   background: url(https://www.spacex.com/static/images/crew-2/HP_Desktop1.webp) ;
    background-size: cover; 
    background-position-y: center;
+   background-position-x: center;
+
 }
 
 .page2 {
@@ -69,7 +71,7 @@ body {
 
 .shop {
     position: relative;
-    width: 100px;
+    width: 150px;
     /* background-color: blueviolet; */
     display: flex;
     align-items: center;
@@ -129,6 +131,9 @@ body {
 #burger {
     font-size: 20px;
 }
+
+/*-----------------------PAGE 2------------------------------------------*/
+
 
 .bottomBox {
     width: 500px;
@@ -304,7 +309,112 @@ h3, h1 {
 
 }
 
-.page3Btn a {
+.page3Btn a, .btn1 a, .btn2 a, .btn3 a, .btn4 a, .btn5 a, .btn6 a, .shopLink a, .burgerLink a, .page4Btn a, .footerLink1 a, .footerLink2 a, .footerLink3 a, .footerLink4 a, .footerLink5 a, .footerLink6 a {
     color: white;
     text-decoration: none;
+}
+
+/*-----------------------PAGE 4------------------------------------------*/
+
+
+.page4Info {
+    width: 600px;
+    height: 240px; 
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 420px; 
+    /* bottom: 0; */
+    left: 3%; 
+}
+
+
+.dragonDockingTextInfo {
+    /* background-color: seagreen; */
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.dragonDocking {
+    height: 100px;
+    width: 380px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+
+.dragonInfo {
+    height: 50px;
+    width: 530px;
+    /* background-color: rgb(220, 190, 20); */
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /* margin-top: 500px; */
+    left: 5%;
+}
+
+
+.page4Btn {
+    height: 50px;
+    width: 160px;
+    border: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks {
+    width: 600px;
+    height: 30px;
+    /* background-color: teal; */
+}
+
+.feet {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    /* background-color: rgb(128, 77, 0); */
+    align-items: center;
+    left: -9%;
+    list-style: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright {
+    width: 95px;
+    height: 30px;
+    /* background-color: violet; */
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 13px;
+    color: rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
